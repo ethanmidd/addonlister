@@ -10,5 +10,13 @@
     <br>
     <a href="index.php">Go Back</a>
     <br><br>
+	<div class="well">
+			<a href="edit.php?id=<?php echo $addon->id; ?>" class="btn btn-default">Edit</a> 
+
+			<form style="display:inline;" method="post" action="addon.php">
+				<input type="hidden" name="del_id" value="<?php echo $addon->id; ?>">
+				<input type="submit" class="btn btn-danger" value="Delete">
+			</form>
+	</div>
 
 <?php include 'inc/footer.php'; ?>
