@@ -29,7 +29,7 @@
             return $results;
         }
 
-        // Get Jobs By Category
+        // Get Addons By Category
         public function getByCategory($category){
             $this->db->query("SELECT addons.*, categories.name AS cname
                          FROM addons
@@ -68,7 +68,7 @@
             return $row;
         }
 
-        // Create Job
+        // Addon Job
         public function create($data){
             //Insert Query
             $this->db->query("INSERT INTO addons (category_id, addon_title, description, developer, file_size)
