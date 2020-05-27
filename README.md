@@ -1,2 +1,2 @@
 # addonlister
- list epic addons :3
+List flight simulator addons
