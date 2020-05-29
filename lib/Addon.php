@@ -72,7 +72,7 @@
 		public function create($data){
 			//Insert Query
 			$this->db->query("INSERT INTO addons (category_id, addon_title, description, developer, file_size)
-			VALUES (:category_id,:addon_title, :description, :developer, :file_size)");
+			VALUES (:category_id, :addon_title, :description, :developer, :file_size)");
 			// Bind Data
 			$this->db->bind(':category_id', $data['category_id']);
 			$this->db->bind(':addon_title', $data['addon_title']);
