@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>JobLister</title>
-	<link rel="stylesheet" href="http://bootswatch.com/flatly/bootstrap.min.css">
+	<title>AddonLister</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
