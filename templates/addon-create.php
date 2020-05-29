@@ -1,9 +1,9 @@
 <?php include 'inc/header.php'; ?>
     <h2 class="page-header">Create Addon Listing</h2>
     <form method="post" action="create.php">
-        <div class="form-group">
+    <div class="form-group">
             <label>Addon Title</label>
-            <input type="text" class="form-control" name="developer">
+            <input type="text" class="form-control" name="addon_title">
         </div>
         <div class="form-group">
             <label>Category</label>
