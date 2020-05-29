@@ -1,5 +1,5 @@
 			<footer class="footer">
-        <p>&copy; 2016 JobLister, Inc.</p>
+        <p>&copy; 2020 AddonLister, Inc.</p>
       </footer>
 
     </div> <!-- /container -->
