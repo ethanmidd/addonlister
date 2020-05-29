@@ -16,7 +16,7 @@
       	<?php foreach($addons as $addon): ?>
       	<div class="row marketing">
 	        <div class="col-md-10">
-	          <h4><?php echo $addon->job_title; ?></h4>
+	          <h4><?php echo $addon->addon_title; ?></h4>
 	          <p><?php echo $addon->description; ?></p>     
 	        </div>
 	        <div class="col-md-2">
